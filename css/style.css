@@ -8,7 +8,6 @@ img {
   max-width: 100%;
 }
 
-img,
 svg {
   vertical-align: middle;
 }
@@ -49,12 +48,25 @@ header {
 
 .presentation {
   font-size: 1.4rem;
-  text-align: center;
-  display: inline;
+  background-image: url("../img/happygirl.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  padding-top: 149px;
 }
+.main_content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 150px;
+  color: #2c21ab;
+}
+
 footer {
   background-color: #002c61;
-  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
 }
 .footer-sm {
   color: white;

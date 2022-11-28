@@ -53,14 +53,18 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
-  padding-top: 149px;
+  padding-bottom: 150px;
 }
 .main_content {
-  text-align: center;
   display: flex;
   flex-direction: column;
   padding: 150px;
-  color: #2c21ab;
+  color: #09390c;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 4rem;
+  width: 100%;
 }
 
 footer {
@@ -96,6 +100,31 @@ footer {
   font-weight: 400;
 }
 /* ABOUT US */
+.section_about {
+  background-image: url(../img/aboutusbg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 200px;
+  padding-top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.section_about_2 {
+  display: flex;
+}
+
+.about_a {
+  font-size: 2rem;
+  color: aliceblue;
+}
+.about_b {
+  display: flex;
+  flex-direction: row;
+}
+
 /* OUR SERVICES */
 .section_title {
   margin: 2rem;

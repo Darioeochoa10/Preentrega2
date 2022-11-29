@@ -114,6 +114,7 @@ footer {
 }
 .section_about_2 {
   display: flex;
+  flex-direction: row;
 }
 
 .about_a {
@@ -125,21 +126,98 @@ footer {
   flex-direction: row;
 }
 
-/* OUR SERVICES */
-.section_title {
-  margin: 2rem;
+.tittle_about {
+  background-color: #002c61;
+  padding: 9px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.text_about {
   text-align: center;
 }
-.section_subtitle {
+
+/* OUR SERVICES */
+.section_title {
+  display: flex;
+  justify-content: center;
+  background-color: #002c61;
+  color: aliceblue;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+.section_services {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+.service_card_1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  width: 400px;
-  height: 380px;
-  background-color: aliceblue;
-  margin-bottom: 0px;
-  display: inline-block;
-  position: relative;
-  left: 150px;
-  z-index: -1;
+}
+.service_card_2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.service_text_1 {
+  font-size: 0.9rem;
+  padding: 10px;
+}
+.service_text_2 {
+  font-size: 0.9rem;
+  padding: 10px;
+}
+.service_subtitle {
+  padding: 20px;
+}
+/* PRINCING */
+
+.section_pricing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #cce3fe;
+  height: 150px;
+  font-size: 1.2rem;
+}
+.pricing_card {
+  text-align: center;
+  display: grid;
+
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  gap: 2rem;
+}
+
+.pricing_card_1 {
+  padding: 15px;
+  min-height: 200px;
+  background-color: #cce3fe;
+  box-shadow: 1px 10px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.pricing_card_2 {
+  padding: 15px;
+  min-height: 200px;
+  background-color: #cce3fe;
+  box-shadow: 1px 10px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.price_amount {
+  font-size: 52px;
+  font-weight: bold;
+  margin-bottom: 4px;
+  color: #002c61;
 }
 /* CONTACT US */
 

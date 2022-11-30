@@ -69,10 +69,13 @@ header {
 .main_title {
   color: white;
   text-shadow: black 0.1em 0.1em 0.2em;
+  animation: zoom-in 1.5s ease;
 }
+
 .main_subtitle {
   color: white;
   text-shadow: black 0.1em 0.1em 0.2em;
+  animation: zoom-in 2s ease;
 }
 
 footer {
@@ -176,10 +179,12 @@ footer {
 .service_text_1 {
   font-size: 0.9rem;
   padding: 10px;
+  animation: zoom-in 3s ease;
 }
 .service_text_2 {
   font-size: 0.9rem;
   padding: 10px;
+  animation: zoom-in 3s ease;
 }
 .service_subtitle {
   padding: 20px;
@@ -269,6 +274,19 @@ footer {
 .btn_success {
   font-size: 1rem;
   width: 20%;
+}
+
+/* animation zoom in */
+
+@keyframes zoom-in {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 /* media querys */

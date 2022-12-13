@@ -1,0 +1,20 @@
+{
+  "name": "proyecto-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darioeochoa10/Preentrega2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Darioeochoa10/Preentrega2/issues"
+  },
+  "homepage": "https://github.com/Darioeochoa10/Preentrega2#readme"
+}
